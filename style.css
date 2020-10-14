@@ -1,6 +1,7 @@
 html
 {
     box-sizing: border-box;
+    vertical-align:center;
 }
 *,*::after,*::before {
     box-sizing: inherit;
