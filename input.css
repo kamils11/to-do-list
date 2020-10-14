@@ -1,0 +1,12 @@
+.section__form__input--newTask
+{
+    height: 40px;
+    width: 550px;
+    font-size: 25px;
+}
+.section__form
+{
+    padding: 0;
+    display:flex;
+    justify-content: center;
+}
