@@ -44,8 +44,9 @@
 
 
         const taskToDo = document.querySelector(".section__form__input--newTask");
-
+        taskToDo.focus();
         if (taskToDo.value == "") {
+            
             return false;
         }
 
@@ -53,7 +54,7 @@
             content: taskToDo.value.trim()
         })
         taskToDo.value = "";
-        taskToDo.focus();
+        
         render();
     }
 
